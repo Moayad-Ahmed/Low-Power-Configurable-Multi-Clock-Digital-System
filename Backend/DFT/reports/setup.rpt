@@ -1,0 +1,2961 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 20
+Design : SYS_TOP
+Version: K-2015.06
+Date   : Fri Oct 25 23:33:14 2024
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+  Startpoint: U0_ALU/ALU_OUT_reg[7]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[8]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[7]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[7]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[8]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[8]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[6]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[7]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[6]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[6]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[7]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[7]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[5]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[6]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[5]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[5]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[6]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[6]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[4]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[5]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[4]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[4]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[5]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[5]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[3]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[4]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[3]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[3]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[4]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[4]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[2]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[3]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[2]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[2]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[3]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[3]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[1]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[2]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[1]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[1]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[2]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[2]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[0]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[1]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[0]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[0]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[1]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[1]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.85
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[14]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[15]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[14]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[14]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[15]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[15]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[13]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[14]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[13]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[13]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[14]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[14]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[12]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[13]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[12]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[12]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[13]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[13]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[11]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[12]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[11]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[11]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[12]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[12]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[10]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[11]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[10]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[10]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[11]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[11]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[9]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[10]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[9]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[9]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[10]/SI (SDFFRQX2M)                   0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[10]/CK (SDFFRQX2M)                   0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[8]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/ALU_OUT_reg[9]
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[8]/CK (SDFFRQX2M)                    0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[8]/Q (SDFFRQX2M)                     0.44       0.44 f
+  U0_ALU/ALU_OUT_reg[9]/SI (SDFFRQX2M)                    0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/ALU_OUT_reg[9]/CK (SDFFRQX2M)                    0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: U0_ALU/ALU_OUT_reg[15]
+              (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Endpoint: U0_ALU/OUT_VALID_reg
+            (rising edge-triggered flip-flop clocked by ALU_CLK)
+  Path Group: ALU_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock ALU_CLK (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_ALU/ALU_OUT_reg[15]/CK (SDFFRQX2M)                   0.00       0.00 r
+  U0_ALU/ALU_OUT_reg[15]/Q (SDFFRQX2M)                    0.44       0.44 f
+  U0_ALU/OUT_VALID_reg/SI (SDFFRQX2M)                     0.00       0.44 f
+  data arrival time                                                  0.44
+
+  clock ALU_CLK (rise edge)                              20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_ALU/OUT_VALID_reg/CK (SDFFRQX2M)                     0.00      19.80 r
+  library setup time                                     -0.50      19.30
+  data required time                                                19.30
+  --------------------------------------------------------------------------
+  data required time                                                19.30
+  data arrival time                                                 -0.44
+  --------------------------------------------------------------------------
+  slack (MET)                                                       18.86
+
+
+  Startpoint: UART_RX_IN (input port clocked by UART_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[0]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock UART_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   54.25      54.25 r
+  UART_RX_IN (in)                                         0.05      54.30 r
+  U0_UART/RX_IN_S (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.30 r
+  U0_UART/U0_UART_RX/RX_In (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.30 r
+  U0_UART/U0_UART_RX/U_RX_FSM/RX_In (UART_RX_FSM_test_1)
+                                                          0.00      54.30 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U17/Y (OAI22X1M)            0.09      54.40 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U15/Y (AOI33X2M)            0.28      54.68 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U14/Y (OAI21X2M)            0.09      54.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[0]/D (SDFFRQX2M)
+                                                          0.00      54.77 f
+  data arrival time                                                 54.77
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[0]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                -54.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                      215.90
+
+
+  Startpoint: UART_RX_IN (input port clocked by UART_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Sampler/Sample3_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock UART_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   54.25      54.25 f
+  UART_RX_IN (in)                                         0.04      54.29 f
+  U0_UART/RX_IN_S (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/RX_In (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/RX_In (Data_Sampling_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/U36/Y (CLKMX2X2M)          0.19      54.48 f
+  U0_UART/U0_UART_RX/U_Sampler/Sample3_reg/D (SDFFSX1M)
+                                                          0.00      54.48 f
+  data arrival time                                                 54.48
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Sampler/Sample3_reg/CK (SDFFSX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.40     270.66
+  data required time                                               270.66
+  --------------------------------------------------------------------------
+  data required time                                               270.66
+  data arrival time                                                -54.48
+  --------------------------------------------------------------------------
+  slack (MET)                                                      216.18
+
+
+  Startpoint: UART_RX_IN (input port clocked by UART_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Sampler/Sample2_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock UART_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   54.25      54.25 f
+  UART_RX_IN (in)                                         0.04      54.29 f
+  U0_UART/RX_IN_S (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/RX_In (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/RX_In (Data_Sampling_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/U43/Y (CLKINVX1M)          0.08      54.37 r
+  U0_UART/U0_UART_RX/U_Sampler/U39/Y (MXI2X1M)            0.09      54.46 f
+  U0_UART/U0_UART_RX/U_Sampler/Sample2_reg/D (SDFFSX1M)
+                                                          0.00      54.46 f
+  data arrival time                                                 54.46
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Sampler/Sample2_reg/CK (SDFFSX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.42     270.65
+  data required time                                               270.65
+  --------------------------------------------------------------------------
+  data required time                                               270.65
+  data arrival time                                                -54.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                      216.19
+
+
+  Startpoint: UART_RX_IN (input port clocked by UART_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Sampler/Sample1_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock UART_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                   54.25      54.25 f
+  UART_RX_IN (in)                                         0.04      54.29 f
+  U0_UART/RX_IN_S (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/RX_In (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/RX_In (Data_Sampling_Prescale_Width6_test_1)
+                                                          0.00      54.29 f
+  U0_UART/U0_UART_RX/U_Sampler/U43/Y (CLKINVX1M)          0.08      54.37 r
+  U0_UART/U0_UART_RX/U_Sampler/U41/Y (MXI2X1M)            0.09      54.46 f
+  U0_UART/U0_UART_RX/U_Sampler/Sample1_reg/D (SDFFSX1M)
+                                                          0.00      54.46 f
+  data arrival time                                                 54.46
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Sampler/Sample1_reg/CK (SDFFSX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.42     270.65
+  data required time                                               270.65
+  --------------------------------------------------------------------------
+  data required time                                               270.65
+  data arrival time                                                -54.46
+  --------------------------------------------------------------------------
+  slack (MET)                                                      216.19
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Start/strt_glitch_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Edge_Cnt[0] (UART_RX_FSM_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U75/Y (NOR2BX1M)            0.22       0.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U76/Y (OAI2B2X1M)           0.21       0.98 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U80/Y (NAND3X1M)            0.13       1.11 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U20/Y (OR4X1M)              0.44       1.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U30/Y (NOR3X2M)             0.19       1.74 r
+  U0_UART/U0_UART_RX/U_RX_FSM/strt_chk_en (UART_RX_FSM_test_1)
+                                                          0.00       1.74 r
+  U0_UART/U0_UART_RX/U_Start/strt_chk_en (Start_Check_test_1)
+                                                          0.00       1.74 r
+  U0_UART/U0_UART_RX/U_Start/U2/Y (AO2B2X2M)              0.35       2.09 f
+  U0_UART/U0_UART_RX/U_Start/strt_glitch_reg/D (SDFFRQX2M)
+                                                          0.00       2.09 f
+  data arrival time                                                  2.09
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Start/strt_glitch_reg/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.68
+  data required time                                               270.68
+  --------------------------------------------------------------------------
+  data required time                                               270.68
+  data arrival time                                                 -2.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.58
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Edge_Cnt[0] (UART_RX_FSM_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U75/Y (NOR2BX1M)            0.22       0.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U76/Y (OAI2B2X1M)           0.21       0.98 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U80/Y (NAND3X1M)            0.13       1.11 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U20/Y (OR4X1M)              0.44       1.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U18/Y (NOR3X2M)             0.23       1.78 r
+  U0_UART/U0_UART_RX/U_RX_FSM/par_chk_en (UART_RX_FSM_test_1)
+                                                          0.00       1.78 r
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_En (Parity_Check_Data_Width8_test_1)
+                                                          0.00       1.78 r
+  U0_UART/U0_UART_RX/U_Parity_Check/U5/Y (INVX2M)         0.07       1.85 f
+  U0_UART/U0_UART_RX/U_Parity_Check/U3/Y (OAI2BB2X1M)     0.22       2.07 f
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg/D (SDFFRQX1M)
+                                                          0.00       2.07 f
+  data arrival time                                                  2.07
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg/CK (SDFFRQX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.40     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -2.07
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.60
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Stop/stp_err_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Edge_Cnt[0] (UART_RX_FSM_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U75/Y (NOR2BX1M)            0.22       0.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U76/Y (OAI2B2X1M)           0.21       0.98 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U80/Y (NAND3X1M)            0.13       1.11 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U20/Y (OR4X1M)              0.44       1.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U22/Y (NOR3X2M)             0.22       1.77 r
+  U0_UART/U0_UART_RX/U_RX_FSM/stp_chk_en (UART_RX_FSM_test_1)
+                                                          0.00       1.77 r
+  U0_UART/U0_UART_RX/U_Stop/stp_chk_en (Stop_Check_test_1)
+                                                          0.00       1.77 r
+  U0_UART/U0_UART_RX/U_Stop/U5/Y (INVX2M)                 0.07       1.84 f
+  U0_UART/U0_UART_RX/U_Stop/U3/Y (OAI2BB2X1M)             0.22       2.06 f
+  U0_UART/U0_UART_RX/U_Stop/stp_err_reg/D (SDFFRQX1M)     0.00       2.06 f
+  data arrival time                                                  2.06
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Stop/stp_err_reg/CK (SDFFRQX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.40     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -2.06
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.61
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[2]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Edge_Cnt[0] (UART_RX_FSM_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U69/Y (NOR2BX1M)            0.22       0.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U70/Y (OAI2B2X1M)           0.20       0.98 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U71/Y (NAND4BX1M)           0.17       1.15 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U21/Y (OR4X1M)              0.39       1.54 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U9/Y (OAI31X1M)             0.22       1.76 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U8/Y (OR2X2M)               0.18       1.94 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U23/Y (NAND3X2M)            0.08       2.02 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[2]/D (SDFFRQX2M)
+                                                          0.00       2.02 f
+  data arrival time                                                  2.02
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.68
+  data required time                                               270.68
+  --------------------------------------------------------------------------
+  data required time                                               270.68
+  data arrival time                                                 -2.02
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.66
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[1]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Edge_Cnt[0] (UART_RX_FSM_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U69/Y (NOR2BX1M)            0.22       0.77 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U70/Y (OAI2B2X1M)           0.20       0.98 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U71/Y (NAND4BX1M)           0.17       1.15 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U21/Y (OR4X1M)              0.39       1.54 f
+  U0_UART/U0_UART_RX/U_RX_FSM/U9/Y (OAI31X1M)             0.22       1.76 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U8/Y (OR2X2M)               0.18       1.94 r
+  U0_UART/U0_UART_RX/U_RX_FSM/U26/Y (NAND3X2M)            0.07       2.01 f
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[1]/D (SDFFRQX2M)
+                                                          0.00       2.01 f
+  data arrival time                                                  2.01
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_RX_FSM/Current_State_reg[1]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.68
+  data required time                                               270.68
+  --------------------------------------------------------------------------
+  data required time                                               270.68
+  data arrival time                                                 -2.01
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.67
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[4]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Sampler/Sampled_Bit_reg
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[4]/CK (SDFFRQX1M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[4]/Q (SDFFRQX1M)
+                                                          0.58       0.58 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[4] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.58 f
+  U0_UART/U0_UART_RX/U_Sampler/Edge_Cnt[4] (Data_Sampling_Prescale_Width6_test_1)
+                                                          0.00       0.58 f
+  U0_UART/U0_UART_RX/U_Sampler/U67/Y (CLKXOR2X2M)         0.31       0.88 r
+  U0_UART/U0_UART_RX/U_Sampler/U66/Y (NOR3X1M)            0.06       0.94 f
+  U0_UART/U0_UART_RX/U_Sampler/U65/Y (NAND4X1M)           0.12       1.06 r
+  U0_UART/U0_UART_RX/U_Sampler/U64/Y (CLKNAND2X2M)        0.13       1.19 f
+  U0_UART/U0_UART_RX/U_Sampler/U47/Y (NAND3BX1M)          0.25       1.44 f
+  U0_UART/U0_UART_RX/U_Sampler/U45/Y (NOR4X1M)            0.27       1.70 r
+  U0_UART/U0_UART_RX/U_Sampler/U44/Y (CLKMX2X2M)          0.25       1.96 f
+  U0_UART/U0_UART_RX/U_Sampler/Sampled_Bit_reg/D (SDFFSQX1M)
+                                                          0.00       1.96 f
+  data arrival time                                                  1.96
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Sampler/Sampled_Bit_reg/CK (SDFFSQX1M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.42     270.65
+  data required time                                               270.65
+  --------------------------------------------------------------------------
+  data required time                                               270.65
+  data arrival time                                                 -1.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.70
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[1]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/U50/Y (NOR2BX1M)           0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Counter/U51/Y (OAI2B2X1M)          0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Counter/U55/Y (NAND3X1M)           0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Counter/U59/Y (NOR4X1M)            0.24       1.36 r
+  U0_UART/U0_UART_RX/U_Counter/U16/Y (NOR2X2M)            0.11       1.47 f
+  U0_UART/U0_UART_RX/U_Counter/U14/Y (INVX2M)             0.18       1.65 r
+  U0_UART/U0_UART_RX/U_Counter/U23/Y (AOI32X1M)           0.18       1.84 f
+  U0_UART/U0_UART_RX/U_Counter/U22/Y (OAI22X1M)           0.20       2.03 r
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[1]/D (SDFFRQX2M)
+                                                          0.00       2.03 r
+  data arrival time                                                  2.03
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[1]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.29     270.78
+  data required time                                               270.78
+  --------------------------------------------------------------------------
+  data required time                                               270.78
+  data arrival time                                                 -2.03
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.74
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[3]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/U50/Y (NOR2BX1M)           0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Counter/U51/Y (OAI2B2X1M)          0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Counter/U55/Y (NAND3X1M)           0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Counter/U59/Y (NOR4X1M)            0.24       1.36 r
+  U0_UART/U0_UART_RX/U_Counter/U25/Y (AND3X2M)            0.24       1.61 r
+  U0_UART/U0_UART_RX/U_Counter/U31/Y (NAND2X2M)           0.07       1.68 f
+  U0_UART/U0_UART_RX/U_Counter/U30/Y (CLKXOR2X2M)         0.19       1.86 r
+  U0_UART/U0_UART_RX/U_Counter/U29/Y (NOR2X2M)            0.04       1.90 f
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[3]/D (SDFFRQX2M)
+                                                          0.00       1.90 f
+  data arrival time                                                  1.90
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[3]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.68
+  data required time                                               270.68
+  --------------------------------------------------------------------------
+  data required time                                               270.68
+  data arrival time                                                 -1.90
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.78
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[7]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U12/Y (OAI2BB2X1M)
+                                                          0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[7]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[7]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.40     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.87
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[0]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/U50/Y (NOR2BX1M)           0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Counter/U51/Y (OAI2B2X1M)          0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Counter/U55/Y (NAND3X1M)           0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Counter/U59/Y (NOR4X1M)            0.24       1.36 r
+  U0_UART/U0_UART_RX/U_Counter/U16/Y (NOR2X2M)            0.11       1.47 f
+  U0_UART/U0_UART_RX/U_Counter/U14/Y (INVX2M)             0.18       1.65 r
+  U0_UART/U0_UART_RX/U_Counter/U21/Y (OAI32X1M)           0.14       1.79 f
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[0]/D (SDFFRQX2M)
+                                                          0.00       1.79 f
+  data arrival time                                                  1.79
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Counter/Bit_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.40     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.87
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[5]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U7/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[5]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[5]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[1]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U3/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[1]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[1]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[4]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U6/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[4]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[4]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[3]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U5/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[3]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[3]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[6]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U8/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[6]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[6]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[2]
+            (rising edge-triggered flip-flop clocked by RX_CLK)
+  Path Group: RX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt_reg[0]/Q (SDFFRQX2M)
+                                                          0.55       0.55 f
+  U0_UART/U0_UART_RX/U_Counter/Edge_Cnt[0] (Edge_Bit_Counter_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/Edge_Cnt[0] (Deserializer_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       0.55 f
+  U0_UART/U0_UART_RX/U_Deserializer/U37/Y (NOR2BX1M)      0.22       0.77 f
+  U0_UART/U0_UART_RX/U_Deserializer/U38/Y (OAI2B2X1M)     0.21       0.98 r
+  U0_UART/U0_UART_RX/U_Deserializer/U42/Y (NAND3X1M)      0.15       1.13 f
+  U0_UART/U0_UART_RX/U_Deserializer/U46/Y (NOR4X1M)       0.20       1.32 r
+  U0_UART/U0_UART_RX/U_Deserializer/U10/Y (NAND2X2M)      0.20       1.53 f
+  U0_UART/U0_UART_RX/U_Deserializer/U9/Y (INVX2M)         0.18       1.70 r
+  U0_UART/U0_UART_RX/U_Deserializer/U4/Y (OAI22X1M)       0.10       1.80 f
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[2]/D (SDFFRQX2M)
+                                                          0.00       1.80 f
+  data arrival time                                                  1.80
+
+  clock RX_CLK (rise edge)                              271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  U0_UART/U0_UART_RX/U_Deserializer/P_Data_reg[2]/CK (SDFFRQX2M)
+                                                          0.00     271.07 r
+  library setup time                                     -0.39     270.67
+  data required time                                               270.67
+  --------------------------------------------------------------------------
+  data required time                                               270.67
+  data arrival time                                                 -1.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                      268.88
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[2][0]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[2][0]/SE (SDFFSQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[2][0]/CK (SDFFSQX2M)              0.00      19.80 r
+  library setup time                                     -0.62      19.18
+  data required time                                                19.18
+  --------------------------------------------------------------------------
+  data required time                                                19.18
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.36
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[3][5]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U212/Y (DLY1X1M)                             0.81       6.79 r
+  U0_RegFile/RegMem_reg[3][5]/SE (SDFFSQX2M)              0.00       6.79 r
+  data arrival time                                                  6.79
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[3][5]/CK (SDFFSQX2M)              0.00      19.80 r
+  library setup time                                     -0.62      19.18
+  data required time                                                19.18
+  --------------------------------------------------------------------------
+  data required time                                                19.18
+  data arrival time                                                 -6.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.38
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[2][7]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U211/Y (DLY1X1M)                             0.81       6.79 r
+  U0_RegFile/RegMem_reg[2][7]/SE (SDFFSQX2M)              0.00       6.79 r
+  data arrival time                                                  6.79
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[2][7]/CK (SDFFSQX2M)              0.00      19.80 r
+  library setup time                                     -0.62      19.18
+  data required time                                                19.18
+  --------------------------------------------------------------------------
+  data required time                                                19.18
+  data arrival time                                                 -6.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.38
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[5][1]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[5][1]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[5][1]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[4][7]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[4][7]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[4][7]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[4][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[4][4]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[4][4]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[4][1]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[4][1]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[4][1]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RdData_reg[6]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RdData_reg[6]/SE (SDFFRQX2M)                 0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RdData_reg[6]/CK (SDFFRQX2M)                 0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RdData_reg[3]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RdData_reg[3]/SE (SDFFRQX2M)                 0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RdData_reg[3]/CK (SDFFRQX2M)                 0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RdData_reg[0]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RdData_reg[0]/SE (SDFFRQX2M)                 0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RdData_reg[0]/CK (SDFFRQX2M)                 0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[0][7]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[0][7]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[0][7]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[0][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[0][4]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[0][4]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[0][1]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[0][1]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[0][1]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[1][1]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[1][1]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[1][1]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[1][7]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[1][7]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[1][7]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[1][0]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[1][0]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[1][0]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[3][4]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[3][4]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[3][4]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RdData_Valid_reg
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RdData_Valid_reg/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RdData_Valid_reg/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[2][2]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[2][2]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[2][2]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: SE (input port clocked by SCAN_CLK)
+  Endpoint: U0_RegFile/RegMem_reg[2][5]
+            (rising edge-triggered flip-flop clocked by SCAN_CLK)
+  Path Group: SCAN_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock SCAN_CLK (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    4.00       4.00 r
+  SE (in)                                                 0.74       4.74 r
+  U21/Y (INVXLM)                                          0.18       4.92 f
+  U23/Y (INVXLM)                                          0.51       5.43 r
+  U17/Y (INVXLM)                                          0.16       5.59 f
+  U18/Y (INVXLM)                                          0.10       5.69 r
+  U16/Y (DLY1X1M)                                         0.29       5.98 r
+  U0_RegFile/test_se (RegFile_Data8_Depth8_Addr3_test_1)
+                                                          0.00       5.98 r
+  U0_RegFile/U210/Y (DLY1X1M)                             0.84       6.82 r
+  U0_RegFile/RegMem_reg[2][5]/SE (SDFFRQX2M)              0.00       6.82 r
+  data arrival time                                                  6.82
+
+  clock SCAN_CLK (rise edge)                             20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -0.20      19.80
+  U0_RegFile/RegMem_reg[2][5]/CK (SDFFRQX2M)              0.00      19.80 r
+  library setup time                                     -0.60      19.20
+  data required time                                                19.20
+  --------------------------------------------------------------------------
+  data required time                                                19.20
+  data arrival time                                                 -6.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.39
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Start/strt_glitch_reg
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_MUX/TX_Out_reg
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                             8409.28    8409.28
+  clock network delay (ideal)                             0.00    8409.28
+  U0_UART/U0_UART_RX/U_Start/strt_glitch_reg/CK (SDFFRQX2M)
+                                                          0.00    8409.28 r
+  U0_UART/U0_UART_RX/U_Start/strt_glitch_reg/Q (SDFFRQX2M)
+                                                          0.47    8409.75 f
+  U0_UART/U0_UART_RX/U_Start/strt_glitch (Start_Check_test_1)
+                                                          0.00    8409.75 f
+  U0_UART/U0_UART_RX/test_so1 (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00    8409.75 f
+  U0_UART/U0_UART_TX/test_si (UART_TX_Data_Width8_test_1)
+                                                          0.00    8409.75 f
+  U0_UART/U0_UART_TX/U_MUX/test_si (UART_MUX_test_1)      0.00    8409.75 f
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/SI (SDFFSX1M)       0.00    8409.75 f
+  data arrival time                                               8409.75
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/CK (SDFFSX1M)       0.00    8680.35 r
+  library setup time                                     -0.52    8679.83
+  data required time                                              8679.83
+  --------------------------------------------------------------------------
+  data required time                                              8679.83
+  data arrival time                                              -8409.75
+  --------------------------------------------------------------------------
+  slack (MET)                                                      270.08
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[7]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U34/Y (AO22X1M)         0.33       1.67 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[7]/D (SDFFRQX2M)
+                                                          0.00       1.67 f
+  data arrival time                                                  1.67
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[7]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.40    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.67
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.29
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Par_bit_reg
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]/Q (SDFFRQX2M)
+                                                          0.45       0.45 f
+  U0_UART/U0_UART_TX/U_Parity/U4/Y (XOR3XLM)              0.49       0.94 f
+  U0_UART/U0_UART_TX/U_Parity/U8/Y (XOR3XLM)              0.51       1.45 f
+  U0_UART/U0_UART_TX/U_Parity/U6/Y (OAI2BB2X1M)           0.15       1.61 r
+  U0_UART/U0_UART_TX/U_Parity/Par_bit_reg/D (SDFFSQX1M)
+                                                          0.00       1.61 r
+  data arrival time                                                  1.61
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Par_bit_reg/CK (SDFFSQX1M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.32    8680.04
+  data required time                                              8680.04
+  --------------------------------------------------------------------------
+  data required time                                              8680.04
+  data arrival time                                                 -1.61
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.43
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[6]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U32/Y (OAI2BB1X2M)      0.19       1.53 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[6]/D (SDFFRQX2M)
+                                                          0.00       1.53 f
+  data arrival time                                                  1.53
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[6]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.44
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[5]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U30/Y (OAI2BB1X2M)      0.19       1.53 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[5]/D (SDFFRQX2M)
+                                                          0.00       1.53 f
+  data arrival time                                                  1.53
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[5]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.44
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[4]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U28/Y (OAI2BB1X2M)      0.19       1.53 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[4]/D (SDFFRQX2M)
+                                                          0.00       1.53 f
+  data arrival time                                                  1.53
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[4]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.44
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[3]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U26/Y (OAI2BB1X2M)      0.19       1.53 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[3]/D (SDFFRQX2M)
+                                                          0.00       1.53 f
+  data arrival time                                                  1.53
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[3]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.44
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[2]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U24/Y (OAI2BB1X2M)      0.19       1.53 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[2]/D (SDFFRQX2M)
+                                                          0.00       1.53 f
+  data arrival time                                                  1.53
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[2]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.53
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.44
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[0]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U20/Y (OAI2BB1X2M)      0.17       1.51 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[0]/D (SDFFRQX2M)
+                                                          0.00       1.51 f
+  data arrival time                                                  1.51
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[0]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.51
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.46
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[1]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[2]/Q (SDFFRQX2M)
+                                                          0.46       0.46 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U12/Y (INVX2M)              0.12       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U11/Y (NAND3X2M)            0.12       0.70 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U8/Y (NOR2X2M)              0.13       0.83 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Ser_En (UART_TX_FSM_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/Ser_En (Serializer_Data_Width8_test_1)
+                                                          0.00       0.83 r
+  U0_UART/U0_UART_TX/U_Serializer/U16/Y (INVX2M)          0.08       0.91 f
+  U0_UART/U0_UART_TX/U_Serializer/U14/Y (NOR2X2M)         0.28       1.19 r
+  U0_UART/U0_UART_TX/U_Serializer/U15/Y (NOR2X2M)         0.15       1.34 f
+  U0_UART/U0_UART_TX/U_Serializer/U22/Y (OAI2BB1X2M)      0.17       1.51 f
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[1]/D (SDFFRQX2M)
+                                                          0.00       1.51 f
+  data arrival time                                                  1.51
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Serializer/Store_Data_reg[1]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.51
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.46
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_MUX/TX_Out_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Par_bit_reg
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/CK (SDFFSX1M)       0.00       0.00 r
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/QN (SDFFSX1M)       0.48       0.48 f
+  U0_UART/U0_UART_TX/U_MUX/U5/Y (INVX8M)                  0.76       1.24 r
+  U0_UART/U0_UART_TX/U_MUX/TX_Out (UART_MUX_test_1)       0.00       1.24 r
+  U0_UART/U0_UART_TX/U_Parity/test_si (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       1.24 r
+  U0_UART/U0_UART_TX/U_Parity/Par_bit_reg/SI (SDFFSQX1M)
+                                                          0.00       1.24 r
+  data arrival time                                                  1.24
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Par_bit_reg/CK (SDFFSQX1M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.42    8679.93
+  data required time                                              8679.93
+  --------------------------------------------------------------------------
+  data required time                                              8679.93
+  data arrival time                                                 -1.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.69
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[2]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U13/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[2]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[2]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U16/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[5]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[1]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U12/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[1]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[1]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[4]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U15/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[4]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[4]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[0]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U11/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[0]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[0]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[3]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U14/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[3]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[3]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[6]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U17/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[6]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[6]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[7]
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/CK (SDFFRQX1M)     0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy_reg/Q (SDFFRQX1M)      0.48       0.48 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Busy (UART_TX_FSM_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/Busy (Parity_Calc_Data_Width8_test_1)
+                                                          0.00       0.48 f
+  U0_UART/U0_UART_TX/U_Parity/U10/Y (NOR2BX2M)            0.38       0.86 r
+  U0_UART/U0_UART_TX/U_Parity/U27/Y (AO2B2X2M)            0.37       1.23 f
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[7]/D (SDFFRQX2M)
+                                                          0.00       1.23 f
+  data arrival time                                                  1.23
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_Parity/Store_Data_reg[7]/CK (SDFFRQX2M)
+                                                          0.00    8680.35 r
+  library setup time                                     -0.39    8679.96
+  data required time                                              8679.96
+  --------------------------------------------------------------------------
+  data required time                                              8679.96
+  data arrival time                                                 -1.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.73
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[1]
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: U0_UART/U0_UART_TX/U_MUX/TX_Out_reg
+            (rising edge-triggered flip-flop clocked by TX_CLK)
+  Path Group: TX_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[1]/CK (SDFFRQX2M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_TX/U_TX_FSM/Current_State_reg[1]/Q (SDFFRQX2M)
+                                                          0.47       0.47 f
+  U0_UART/U0_UART_TX/U_TX_FSM/U19/Y (INVX2M)              0.10       0.58 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U9/Y (CLKXOR2X2M)           0.24       0.81 r
+  U0_UART/U0_UART_TX/U_TX_FSM/U21/Y (NAND2X2M)            0.07       0.89 f
+  U0_UART/U0_UART_TX/U_TX_FSM/Mux_Sel[0] (UART_TX_FSM_test_1)
+                                                          0.00       0.89 f
+  U0_UART/U0_UART_TX/U_MUX/Mux_Sel[0] (UART_MUX_test_1)
+                                                          0.00       0.89 f
+  U0_UART/U0_UART_TX/U_MUX/U8/Y (OAI21X2M)                0.14       1.02 r
+  U0_UART/U0_UART_TX/U_MUX/U7/Y (OAI2BB1X2M)              0.07       1.09 f
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/D (SDFFSX1M)        0.00       1.09 f
+  data arrival time                                                  1.09
+
+  clock TX_CLK (rise edge)                             8680.55    8680.55
+  clock network delay (ideal)                             0.00    8680.55
+  clock uncertainty                                      -0.20    8680.35
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/CK (SDFFSX1M)       0.00    8680.35 r
+  library setup time                                     -0.40    8679.95
+  data required time                                              8679.95
+  --------------------------------------------------------------------------
+  data required time                                              8679.95
+  data arrival time                                                 -1.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                     8678.86
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: parity_error
+            (output port clocked by UART_CLK)
+  Path Group: UART_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg/CK (SDFFRQX1M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_Err_reg/Q (SDFFRQX1M)
+                                                          0.38       0.38 r
+  U0_UART/U0_UART_RX/U_Parity_Check/U2/Y (INVXLM)         0.15       0.52 f
+  U0_UART/U0_UART_RX/U_Parity_Check/U10/Y (INVX8M)        0.76       1.29 r
+  U0_UART/U0_UART_RX/U_Parity_Check/Par_Err (Parity_Check_Data_Width8_test_1)
+                                                          0.00       1.29 r
+  U0_UART/U0_UART_RX/Parity_Error (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       1.29 r
+  U0_UART/PARITY_ERR (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       1.29 r
+  parity_error (out)                                      0.00       1.29 r
+  data arrival time                                                  1.29
+
+  clock UART_CLK (rise edge)                            271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  output external delay                                 -54.25     216.81
+  data required time                                               216.81
+  --------------------------------------------------------------------------
+  data required time                                               216.81
+  data arrival time                                                 -1.29
+  --------------------------------------------------------------------------
+  slack (MET)                                                      215.53
+
+
+  Startpoint: U0_UART/U0_UART_RX/U_Stop/stp_err_reg
+              (rising edge-triggered flip-flop clocked by RX_CLK)
+  Endpoint: framing_error
+            (output port clocked by UART_CLK)
+  Path Group: UART_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock RX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_RX/U_Stop/stp_err_reg/CK (SDFFRQX1M)
+                                                          0.00       0.00 r
+  U0_UART/U0_UART_RX/U_Stop/stp_err_reg/Q (SDFFRQX1M)     0.38       0.38 r
+  U0_UART/U0_UART_RX/U_Stop/U2/Y (INVXLM)                 0.15       0.52 f
+  U0_UART/U0_UART_RX/U_Stop/U4/Y (INVX8M)                 0.76       1.28 r
+  U0_UART/U0_UART_RX/U_Stop/stp_err (Stop_Check_test_1)
+                                                          0.00       1.28 r
+  U0_UART/U0_UART_RX/Framing_Error (UART_RX_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       1.28 r
+  U0_UART/FRAMING_ERR (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       1.28 r
+  framing_error (out)                                     0.00       1.28 r
+  data arrival time                                                  1.28
+
+  clock UART_CLK (rise edge)                            271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  output external delay                                 -54.25     216.81
+  data required time                                               216.81
+  --------------------------------------------------------------------------
+  data required time                                               216.81
+  data arrival time                                                 -1.28
+  --------------------------------------------------------------------------
+  slack (MET)                                                      215.53
+
+
+  Startpoint: U0_UART/U0_UART_TX/U_MUX/TX_Out_reg
+              (rising edge-triggered flip-flop clocked by TX_CLK)
+  Endpoint: UART_TX_O (output port clocked by UART_CLK)
+  Path Group: UART_CLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock TX_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/CK (SDFFSX1M)       0.00       0.00 r
+  U0_UART/U0_UART_TX/U_MUX/TX_Out_reg/QN (SDFFSX1M)       0.48       0.48 f
+  U0_UART/U0_UART_TX/U_MUX/U5/Y (INVX8M)                  0.76       1.24 r
+  U0_UART/U0_UART_TX/U_MUX/TX_Out (UART_MUX_test_1)       0.00       1.24 r
+  U0_UART/U0_UART_TX/TX_Out (UART_TX_Data_Width8_test_1)
+                                                          0.00       1.24 r
+  U0_UART/TX_OUT_S (UART_Data_Width8_Prescale_Width6_test_1)
+                                                          0.00       1.24 r
+  UART_TX_O (out)                                         0.00       1.24 r
+  data arrival time                                                  1.24
+
+  clock UART_CLK (rise edge)                            271.27     271.27
+  clock network delay (ideal)                             0.00     271.27
+  clock uncertainty                                      -0.20     271.07
+  output external delay                                 -54.25     216.81
+  data required time                                               216.81
+  --------------------------------------------------------------------------
+  data required time                                               216.81
+  data arrival time                                                 -1.24
+  --------------------------------------------------------------------------
+  slack (MET)                                                      215.57
+
+
+1
